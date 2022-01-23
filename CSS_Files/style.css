@@ -216,6 +216,7 @@ ion-icon {
 .rodape img {
     width: 20px;
     height: 20px;
+    margin-right: 5px;
 }
 .rodape p {
     font-weight: 300;
@@ -223,6 +224,50 @@ ion-icon {
 }
 .rodape strong {
     font-weight: 500;
+}
+.comentarios {
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 15px 15px;
+    /* border: 1px solid black; */
+}
+.comentarios p {
+    font-weight: 300;
+    font-size: 14px;
+}
+.comentarios strong {
+    font-weight: 500;
+}
+.comentarios ion-icon {
+    width: 12px;
+    height: 12px;
+}
+.comentario {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.comente {
+    display: flex;
+    /* width: 100%; */
+    /* height: 50px; */
+    margin: 15px 15px ;
+    /* border: 1px solid black; */
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+}
+.input-text input {
+    width: 500px;
+}
+.input-button input {
+    background-color: #B2DFFC;
+    transition-duration: 0.3s;
+}
+.input-button input:hover {
+    background-color: #0095F6;
 }
 .sidebar {
     width: 293px;
